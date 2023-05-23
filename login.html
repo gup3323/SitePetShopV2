@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style/entrar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-login">
+        <h1 class="login">Login</h1>
+        <div class="email">
+          <i class="fas fa-envelope"></i>
+          <input type="email" name="email" id="email" class="inputCss" placeholder="E-mail">
+        </div>
+        <div class="senha">
+          <i class="fas fa-lock"></i>
+          <input type="password" name="senha" id="senha" class="inputCss" placeholder="Senha">
+        </div>
+        <h1 class="senhaErrada" id="senhaErrada">Senha Incorreta</h1>
+        <h1 class="msgErro" id="msgErro">Email ou Senha incorretos</h1>
+        <div class="supBtn">
+            <div class="btn">
+                <h3 class="entrar-btn">ENTRAR</h3>
+            </div>
+        </div>
+        <div class="criar-conta">
+          <h3>NÃO TEM UMA CONTA? <a href="cadastro.html">CRIE UMA AQUI</a></h3>
+        </div>
+      </div>
+    </div>
+    <script src="js/scriptLogin.js"></script>
+  </body>
+</html>

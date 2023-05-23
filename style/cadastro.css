@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #92d2d9;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 1020px;
+  align-items: center;
+  justify-content: center;
+}
+.container-cadastro {
+  background-color: #f4f4f4;
+  width: 451px;
+  height: 620px;
+  border-radius: 50px;
+}
+.inputCss {
+  width: 334.56px;
+  height: 52.6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  background: #d9d9d9;
+  border-radius: 50px;
+  border: 2px;
+  border-style: none;
+  outline: none;
+  font-size: 20px;
+}
+.cadastro {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  padding-top: 50px;
+}
+.nome {
+  display: flex;
+  background: #d9d9d9;
+  align-items: center;
+  gap: 5px;
+  border-radius: 50px;
+  width: 334.56px;
+  height: 52.6px;
+  margin-top: 70px;
+  margin-left: 60px;
+}
+.img-nome {
+  width: 22px;
+  height: 25px;
+  align-self: center;
+  margin-left: 15px;
+}
+.texto-nome {
+  font-family: "Inter", sans-serif;
+  font-weight: 550;
+  font-size: 15px;
+  line-height: 18px;
+  align-self: center;
+  margin-left: 20px;
+}
+.email {
+  display: flex;
+  background: #d9d9d9;
+  align-items: center;
+  gap: 5px;
+  border-radius: 50px;
+  width: 334.56px;
+  height: 52.6px;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.senha {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: #d9d9d9;
+  border-radius: 50px;
+  width: 334.56px;
+  height: 52.6px;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.confirmar-senha {
+  display: flex;
+  background: #d9d9d9;
+  align-items: center;
+  gap: 5px;
+  border-radius: 50px;
+  width: 334.56px;
+  height: 52.6px;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.btn-cadastro {
+  width: 248px;
+  height: 40px;
+  margin-top: 50px;
+  background-color: #ac2f2f;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  transition: 500ms;
+}
+.cadastro-btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 550;
+  font-size: 15px;
+  line-height: 18px;
+  padding-top: 10px;
+  text-decoration: none;
+  color: white;
+  transition: 500ms;
+}
+.supBtn-cadastro {
+  display: flex;
+  justify-content: center;
+}
+.entrar-conta {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 25px;
+}
+.cadastro-btn:hover {
+  background-color: #eb6262;
+}
+a {
+  width: 248px;
+  border-radius: 50px;
+  text-align: center;
+}
+.fas{
+  font-size: 170%;
+  padding-left: 10px;
+}
