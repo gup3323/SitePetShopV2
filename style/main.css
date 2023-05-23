@@ -31,7 +31,7 @@ a {
   color: #000;
   font-family: "Itim", sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 120%;
   width: 144px;
   height: 84px;
   border-radius: 20px;
@@ -40,19 +40,20 @@ a {
   align-items: center;
   gap: 20px;
 }
-.direita-nav{
+.direita-nav {
   margin-left: 10px;
   margin-top: 15px;
   display: flex;
   gap: 20px;
+  width: 20%;
 }
 .fa-solid.fa-right-to-bracket {
-  font-size: 35px;
+  font-size: 170%;
 }
 .perfil-sair a {
   color: #000;
 }
-.perfil-sair a i{
+.perfil-sair a i {
   padding-right: 10px;
 }
 .perfil-sair {
@@ -77,6 +78,7 @@ a {
 }
 .barraResponsiva {
   display: flex;
+  width: 15%;
   align-items: center;
   justify-content: center;
   /* background-color: tomato; */
@@ -88,12 +90,12 @@ a {
 .barraP {
   background-color: #baf3db;
   border-radius: 100px;
-  width: 220px;
+  width: 100%;
   height: 46px;
 }
 .barra {
   display: flex;
-  width: 250px;
+  width: 100%;
   height: 46px;
   border-radius: 100px;
   background: #baf3db;
@@ -105,9 +107,6 @@ a {
   outline: none;
 }
 .fas.fa-cart-shopping {
-  /* position: absolute;
-  right: 210px;
-  top: 50px; */
   font-size: 30px;
   color: black;
 }
@@ -117,12 +116,12 @@ a {
   justify-content: space-around;
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 90%;
   line-height: 24px;
   margin-top: 67px;
 }
 .itens-menu li {
-  width: 243px;
+  width: 12%;
   height: 25px;
   background-color: #baf3db;
   border-radius: 50px;
@@ -135,6 +134,7 @@ a {
   width: 243px;
   height: 25px;
   text-align: center;
+  font-size: 100%;
 }
 .slider.active {
   display: block;
@@ -150,11 +150,11 @@ a {
   margin-top: 30px;
   gap: 15px;
 }
-.container-slider img{
+.container-slider img {
   width: 100%;
 }
-.container-slider i{
-  font-size: 300%;
+.container-slider i {
+  font-size: 200%;
 }
 .bolinhas {
   display: flex;
@@ -182,7 +182,7 @@ a {
   cursor: pointer;
 }
 .nav-animais a .img-animal {
-  font-size: 30px;
+  font-size: 200%;
   color: black;
   background-color: #218f9b;
   width: 70px;
@@ -196,7 +196,7 @@ a {
 .nav-animais {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 50%;
   margin: auto;
   margin-top: 40px;
   margin-bottom: 30px;
@@ -206,7 +206,7 @@ a {
   align-items: center;
   justify-content: center;
   justify-content: space-around;
-  width: 75%;
+  width: 100%;
   margin: auto;
 }
 .glass {
@@ -214,7 +214,7 @@ a {
   height: 13%;
   backdrop-filter: blur(10px);
   border-radius: 30px;
-  background: linear-gradient(210deg, #BAF3DB, #218F9B);
+  background: linear-gradient(210deg, #baf3db, #218f9b);
   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.7);
 }
 .glass a {
@@ -224,15 +224,15 @@ a {
   width: 250px;
   height: 250px;
 }
-.glass a img{
+.glass a img {
   width: 70%;
 }
-.pl{
+.pl {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.box .glass.coleira{
+.box .glass.coleira {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -251,7 +251,7 @@ a {
   font-size: 30px;
   color: #000000;
 }
-.promocao{
+.promocao {
   position: absolute;
   top: 0;
   right: 0;
@@ -277,42 +277,42 @@ a {
   justify-content: center;
   margin-top: 94px;
 }
-.primeira-linha-produtos{
+.primeira-linha-produtos {
   margin-top: 100px;
 }
-.segunda-linha-produtos{
+.segunda-linha-produtos {
   margin-top: 100px;
 }
-.box.primeira-linha-produtos .glass{
+.box.primeira-linha-produtos .glass {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.box.segunda-linha-produtos .glass{
+.box.segunda-linha-produtos .glass {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.fa-solid.fa-circle-plus{
+.fa-solid.fa-circle-plus {
   font-size: 70px;
   color: black;
 }
-.glass.mais-itens{
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0));
+.glass.mais-itens {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
   background-color: #218f9b;
 }
-.nav-menu{
+.nav-menu {
   display: flex;
   justify-content: space-between;
 }
-.esquerda-nav{
+.esquerda-nav {
   display: flex;
 }
 .iconeSite {
   width: 120px;
   height: 120px;
 }
-.esquerda-nav a i{
+.esquerda-nav a i {
   margin-top: 50px;
 }
 .rodape {
@@ -331,8 +331,34 @@ a {
   padding-top: 88px;
   margin-left: 15px;
 }
-.rodape a i{
+.rodape a i {
   color: black;
-  font-size: 300%;
+  font-size: 250%;
   margin-top: 15px;
+}
+@media screen and (max-width: 740px) {
+  .direita-nav {
+    display: none;
+  }
+  .barraResponsiva {
+    width: 80%;
+    margin: auto;
+  }
+  .barra {
+    width: 193px;
+    height: 25px;
+  }
+  .barraP {
+    width: 193px;
+    height: 25px;
+  }
+  .esquerda-nav {
+    display: none;
+  }
+  .fraseCima {
+    display: none;
+  }
+  .iconePesquisa{
+    display: none;
+  }
 }

@@ -11,8 +11,10 @@ function btnEntrarFunction(){
     }
     if (senhaValue != 'senha123' && emailValue == 'email@gmail.com'){
         senhaErro.classList.add("active")
+        msgErro.classList.remove("active")
     }
     else{
         msgErro.classList.add("active")
+        senhaErro.classList.remove("active")
     }
 }
