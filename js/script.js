@@ -19,3 +19,23 @@ function prev(){
     slides[index].classList.add("active")
     pontos[index].classList.add("active");
 }
+var menuH = document.getElementById("menuH")
+var itensM = document.querySelector(".itens-menu")
+
+menuH.addEventListener("click", menuHambur)
+function menuHambur(){
+    if (menuH.classList.contains("fa-bars")){
+        menuH.classList.remove("fa-bars")
+        menuH.classList.add("fa-x")
+        itensM.classList.add("active")
+    }
+    else{
+        menuH.classList.remove("fa-x")
+        menuH.classList.add("fa-bars")
+        itensM.classList.remove("active")
+    }
+    // if (menuH.classList.contains(".fa-x")){
+    //     menuH.classList.remove(".fa-x")
+    //     menuH.classList.add(".fa-bars")
+    // }
+}
