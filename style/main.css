@@ -217,6 +217,7 @@ a {
   border-radius: 30px;
   background: linear-gradient(210deg, #baf3db, #218f9b);
   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.7);
+  transition: 1200ms;
 }
 .glass a {
   display: flex;
@@ -332,6 +333,9 @@ a {
   padding-top: 88px;
   margin-left: 15px;
 }
+.glass:hover {
+  transform: scale(1.1);
+}
 .rodape a i {
   color: black;
   font-size: 250%;
@@ -350,6 +354,16 @@ a {
 .itens-menu.admNavegar {
   margin-top: 50px;
 }
+.menu-Lateral .fa-solid.fa-right-from-bracket{
+    display: none;
+  }
+.menu-Lateral .fa-solid.fa-right-to-bracket{
+  display: none;
+}
+.menu-Lateral{
+  display: flex;
+  gap: 5px;
+}
 @media screen and (max-width: 740px) {
   .direita-nav {
     display: none;
@@ -357,6 +371,18 @@ a {
   .barraResponsiva {
     width: 80%;
     margin: auto;
+  }
+  .menu-Lateral .fa-solid.fa-right-from-bracket{
+    display: block;
+  }
+  .fa-solid.fa-right-from-bracket{
+    font-size: 120%;
+    color: black;
+  }
+  .menu-Lateral .fa-solid.fa-right-to-bracket{
+    display: block;
+    font-size: 120%;
+    color: black;
   }
   .barra {
     width: 193px;
