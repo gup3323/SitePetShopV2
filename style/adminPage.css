@@ -1,0 +1,44 @@
+.container {
+  width: 85%;
+  height: 70vh;
+  background-color: #218f9b;
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 20px;
+  font-family: "Itim", sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 48px;
+  color: #ffffff;
+  width: 85%;
+  border-radius: 40px;
+}
+.active{
+    display: none;
+}
+.inicio{
+    padding-left: 5%;
+    height: 100px;
+    width: 400px;
+}
+.vendas-total{
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    height: 100px;
+    margin-top: 500px;
+    width: 85%;
+}
+.resultados{
+    display: block;
+    opacity: 1;
+    padding-left: 5%;
+    padding-top: 30px;
+    font-size: 150%;
+}
+.acessos{
+    display: block;
+    opacity: 1;
+    padding-left: 5%;
+    font-size: 150%;
+}

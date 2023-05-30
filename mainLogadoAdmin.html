@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+    <link rel="stylesheet" href="style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/adminPage.css">
+  </head>
+  <body>
+    <p class="fraseCima">Página de Administração</p>
+    <nav class="nav-menu">
+      <div class="direita-nav">
+        <!-- <div class="loginBtn">
+          <a href="login.html" class="login">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            <p>Login</p>
+          </a>
+        </div> -->
+        <div class="perfil-sair">
+          <a href="#"><i class="fa-solid fa-user"></i>Perfil</a>
+          <span></span>
+          <a href="main.html"
+            ><i class="fa-solid fa-right-from-bracket"></i>Sair</a
+          >
+        </div>
+      </div>
+      <i class="fas fa-bars menuH" id="menuH"></i>
+      </div>
+      <i class="fa fa-user bonecoUser"></i>
+      <div class="esquerda-nav">
+          <img src="img/IconeSite.png" alt="ícone do site" class="iconeSite" />
+        </div>
+    </nav>
+    <ul class="itens-menu admNavegar">
+        <li><a href="#" id="lucros" class="lucros">Lucros</a></li>
+        <li><a href="#" id="resultados">Resultados</a></li>
+        <li><a href="#" id="acessos">Acessos</a></li>
+      </ul>
+    <div class="container">
+        <div class="active">
+            <h2 class="inicio">Inicio: 10/01/2023</h2>
+            <div class="vendas-total">
+                <h3 class="vendas">Vendas: 809</h3>
+                <h3 class="total">Total: R$47.564.80</h3>
+            </div>
+        </div>
+    </div>
+    <div class="resultados">
+        <h3 class="vendasRe">Vendas do Mes: 150</h3>
+        <h3 class="visu">Visualizações de itens: 11.405</h3>
+    </div>
+    <div class="acessos">
+        <h3>Acessos diarios:439</h3>
+        <h3>Acessos mensais:895</h3>
+    </div>
+    <script src="js/scriptAdmin.js"></script>
+  </body>
+</html>
