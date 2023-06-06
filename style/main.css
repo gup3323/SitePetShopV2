@@ -216,8 +216,12 @@ a {
   backdrop-filter: blur(10px);
   border-radius: 30px;
   background: linear-gradient(210deg, #baf3db, #218f9b);
-  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.7);
-  transition: 1200ms;
+  box-shadow: 0 0px 30px rgb(0, 119, 255);
+  transition: 700ms;
+}
+.glass:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0px 0px rgb(0, 217, 255);
 }
 .glass a {
   display: flex;
@@ -332,9 +336,6 @@ a {
   color: white;
   padding-top: 88px;
   margin-left: 15px;
-}
-.glass:hover {
-  transform: scale(1.1);
 }
 .rodape a i {
   color: black;
