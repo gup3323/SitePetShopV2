@@ -1,0 +1,1 @@
+msg.style.color = 'código da cor'

@@ -1,0 +1,91 @@
+.container {
+  width: 85%;
+  height: 70vh;
+  background-color: #218f9b;
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 20px;
+  font-family: "Itim", sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 48px;
+  color: #ffffff;
+  width: 85%;
+  border-radius: 40px;
+}
+.inicio {
+  padding-left: 5%;
+  height: 100px;
+  width: 400px;
+}
+.vendas-total {
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  height: 100px;
+  margin-top: 500px;
+  width: 85%;
+}
+.resultados {
+  display: block;
+  opacity: 1;
+  padding-left: 5%;
+  padding-top: 30px;
+  font-size: 150%;
+}
+.lucro{
+    user-select: none;
+}
+.lucro:hover{
+    cursor: pointer;
+}
+.acessos {
+  display: block;
+  opacity: 1;
+  padding-left: 5%;
+  font-size: 150%;
+}
+.myTables{
+    display: flex;
+    border: 0px;
+    width: 55%;
+    margin: auto;
+    margin-top: 50px;
+    opacity: 0;
+    transition: 700ms;
+    
+}
+.myTables.active{
+    opacity: 1;
+}
+.box2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.box2::before, .box2::after{
+    content: '';
+    position: absolute;
+    width: calc(100%);
+    height: calc(100%);
+    z-index: -1;
+    background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000, #ffff00, #0099ff, #001aff, #a200ff);
+    background-size: 300%;
+    background-position: 150%;
+    border-radius: 30px;
+    animation: animCorBox2 3s infinite;
+}
+
+@keyframes animCorBox2 {
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 300%;
+    }
+}
+.box2::after{
+    filter: blur(5px);
+}

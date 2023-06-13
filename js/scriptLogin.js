@@ -5,16 +5,19 @@ btnEntrar.addEventListener("click", btnEntrarFunction)
 function btnEntrarFunction(){
     var emailValue = document.getElementById("email").value;
     var senhaValue = document.getElementById("senha").value;
-    if (emailValue == 'email@gmail.com' && senhaValue == 'senha123'){
-        window.location.href= "mainLogado.html"
-        console.log("Teste")
-    }
-    if (senhaValue != 'senha123' && emailValue == 'email@gmail.com'){
+    if (emailValue == 'email@gmail.com' && senhaValue != 'a'){
         senhaErro.classList.add("active")
         msgErro.classList.remove("active")
     }
+    else if(emailValue == 'email@gmail.com' && senhaValue == 'a'){
+        window.location.href= "mainLogado.html"
+        console.log("Teste")
+    }
     else{
-        msgErro.classList.add("active")
         senhaErro.classList.remove("active")
+        msgErro.classList.add("active")
+    }
+    if (emailValue == senhaValue){
+        window.location.href = 'mainLogadoAdmin.html'
     }
 }

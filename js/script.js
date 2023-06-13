@@ -34,8 +34,4 @@ function menuHambur(){
         menuH.classList.add("fa-bars")
         itensM.classList.remove("active")
     }
-    // if (menuH.classList.contains(".fa-x")){
-    //     menuH.classList.remove(".fa-x")
-    //     menuH.classList.add(".fa-bars")
-    // }
 }
